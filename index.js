@@ -32,3 +32,13 @@ function reverseString(str) {
 }
 
 console.log(reverseString("hello"));
+
+function hasVowel(str) {
+    if (hasVowel.length == 1)
+    {
+      return /[aeiou]/.test(hasVowel);
+    }
+}
+
+console.log(hasVowel("oh!")); // true
+console.log(hasVowel("hmmm...")); // false
